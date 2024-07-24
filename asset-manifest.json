@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sopify/static/css/main.df129b92.css",
+    "main.js": "/sopify/static/js/main.f9438f10.js",
+    "static/js/453.27d8a56e.chunk.js": "/sopify/static/js/453.27d8a56e.chunk.js",
+    "index.html": "/sopify/index.html",
+    "main.df129b92.css.map": "/sopify/static/css/main.df129b92.css.map",
+    "main.f9438f10.js.map": "/sopify/static/js/main.f9438f10.js.map",
+    "453.27d8a56e.chunk.js.map": "/sopify/static/js/453.27d8a56e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df129b92.css",
+    "static/js/main.f9438f10.js"
+  ]
+}
