@@ -14,7 +14,7 @@ const Cart = () => {
    }, [cart])
 
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex flex-wrap justify-center items-center'>
         {
             cart.length > 0 ?
             (<div className='flex gap-10'>
@@ -27,7 +27,7 @@ const Cart = () => {
               }
               </div>
 
-            <div className='flex flex-col justify-start gap-60  mt-10 pt-3'>
+            <div className='flex flex-col flex-wrap justify-start gap-60  mt-10 pt-3'>
                <div>
                   <div className='text-green-600 font-semibold'>Your Cart</div>
                   <div className='text-green-600 text-[20px] uppercase font-bold'>Summary</div>
@@ -47,7 +47,7 @@ const Cart = () => {
 
 
             </div>) :
-            (<div className='flex flex-col gap-2 items-center mt-[35vh]'>
+            (<div className='flex flex-col flex-wrap gap-2 items-center mt-[35vh]'>
                <h1 className='font-semibold text-[20px]'>Cart Empty</h1> 
                <Link to={"/"}>
                   <button className='w-[200px] h-[40px] text-[15px] font-bold text-white bg-green-600 rounded-lg hover:bg-green-700 transition ease-in'>
