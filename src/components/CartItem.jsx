@@ -16,15 +16,15 @@ export const CartItem = ({item, itemIndex}) => {
     }
 
   return (
-    <div className='max-w-[450px] border-b border-black mt-6 pb-4'>
+    <div className='max-w-[35vw] border-b border-black mt-6 pb-4'>
         <div className='flex gap-6 '>
 
-        <div className='h-[150px] w-[150px]'>
+        <div className='h-[150px] w-[12vw]'>
             <img src={item.image} className='h-full w-full'/>
         </div>
 
 
-        <div className='flex flex-col w-[250px] '>
+        <div className='flex flex-col w-[19vw] '>
             <div className='flex flex-col gap-1'>
                <h1 className='text-gray-700 font-bold text-sn text-left  w-70 mt-1'>{item.title}</h1>
                <h1 className='w-60 text-grey-400 font-normal text-[12px] text-left'>{item.description.split(" ").slice(0, 15).join(" ")+"..."}</h1>
